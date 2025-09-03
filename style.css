@@ -23,6 +23,8 @@ body{
     position: absolute;
     top: 50%;
     right:50%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.42, 0, 0, 2.67);
 }
 
 .hour-hand{
